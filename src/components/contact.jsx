@@ -29,7 +29,7 @@ export const Contact = (props) => {
     setLoading(true);
   
      try {
-      const response = await fetch("https://sympony-okm1zo5d6-ritesh-patils-projects-2e2c51b4.vercel.app/api/send-email.js", {
+      const response = await fetch("https://sympony.vercel.app/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
