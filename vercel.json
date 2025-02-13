@@ -4,8 +4,10 @@
       "runtime": "nodejs18.x"
     }
   },
-  "build": {
-    "src": "api/send-email.js",
-    "use": "@vercel/node"
-  }
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    }
+  ]
 }
