@@ -21,7 +21,7 @@ app.post("/send-email", (req, res) => {
   const { name, email, mobile, interest, message, appointmentDate } = req.body;
 
   const mailOptions = {
-    from: email, // User's email
+    from: "seexpert111@gmail.com", // User's email
     to: "hchaudhari754@gmail.com", // Doctor's email
     subject: "New Appointment Request",
     text: `
