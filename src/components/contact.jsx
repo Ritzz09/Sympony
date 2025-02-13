@@ -28,13 +28,12 @@ export const Contact = (props) => {
     e.preventDefault();
     setLoading(true);
   
-    try {
-      const response = await fetch("https://sympony.vercel.app", {
+     try {
+      const response = await fetch("/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
-  
       const data = await response.json();
       console.log("Response received:", data);
   
