@@ -26,10 +26,7 @@ const Faq = () => {
     <section id= "faq" className="faq-section">
       <div className="container">
       <div className="section-title1">
-                <h2>FAQ's</h2>
-                <p style={{ textAlign: 'center'}}>
-                Your Dental Questions, Answered
-                </p>
+                <h2> Your Dental Questions, Answered</h2>
                 <p style={{ textAlign: 'center'}}>
                 Find Clear and Helpful Information About Your Dental Care
                 </p>

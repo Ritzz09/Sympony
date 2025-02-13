@@ -32,7 +32,6 @@ export const Testimonials = (props) => {
     <div id="testimonials" ref={testimonialsRef}>
       <div className="container">
         <div className="section-title text-center">
-          <p>TESTIMONIALS</p>
           <h2>What Our Patients Are Saying</h2>
           <p style={{textTransform:'capitalize'}}>Real Stories, Real Smiles – Hear From Our Happy Patients</p>
         </div>
@@ -58,7 +57,7 @@ export const Testimonials = (props) => {
                             </span>
                           )}
                         </p>
-                        <div className="testimonial-meta">- {d.name}</div>
+                        <div style={{fontWeight:"bold"}} className="testimonial-meta">- {d.name}</div>
                       </div>
                     </div>
                   </div>

@@ -31,12 +31,12 @@
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
-  font-weight: 700;
+  font-size: 60px;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 0;
   background-size: cover;
-  font-variation-settings: "wght" 100, "ital" 0;
+  /* font-variation-settings: "wght" 100, "ital" 0; */
   text-shadow: none;
   z-index: 2;
   position: relative;
@@ -100,16 +100,19 @@ header .intro-text {
 @media only screen and (max-width: 768px) {
   .intro{
     height: 90vh;
+    background-image: url(./Gallery/clinic.jpeg);
   }
   .intro .overlay{
     height: 90vh;
   }
   .intro h1 {
     font-size: 50px; /* Reduces header size on smaller screens */
+    margin-top: 110px;
   }
 
   .intro p {
     font-size: 18px; /* Adjusts paragraph font size */
+    margin-top: 30px;
   }
 
   header .intro-text {
@@ -143,10 +146,12 @@ header .intro-text {
 @media only screen and (max-width: 480px) {
   .intro h1 {
     font-size: 36px; /* Further reduces header size on very small screens */
+    margin-top: 110px;
   }
 
   .intro p {
     font-size: 16px; /* Further adjusts paragraph font size */
+    margin-top: 30px;
   }
 
   header .intro-text {
@@ -173,7 +178,7 @@ header .intro-text {
     border-radius: 25px;
     transition: all 0.5s linear;
     border: 0;
-    margin-top: -50px;
+   
     z-index: 1000;
   }
 }
@@ -199,6 +204,7 @@ header .intro-text {
   .header-image {
     max-width: 80%; /* Reduces image size for smaller screens */
     margin-top: -170px;
+    display: none;
 
   }
 }

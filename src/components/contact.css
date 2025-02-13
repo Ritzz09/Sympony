@@ -222,6 +222,11 @@ label {
     margin-left: 0;
     display: none;
   }
+  #contact p1{
+    margin-left: 0;
+    font-size: 22px;
+  }
+  
 
   .row{
     display: block;

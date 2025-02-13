@@ -25,7 +25,6 @@ export const Services = () => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-        <p>OUR SERVICES</p>
           <h2>Your Path to a Healthier Smile Starts Here </h2>
           <p style={{ textAlign: "center" , textTransform:'capitalize'}}>
           From Preventive Care to Advanced Treatments – We Offer Everything You Need

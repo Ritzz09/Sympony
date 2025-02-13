@@ -9,6 +9,7 @@ import { useState, useEffect } from 'react';
 // SwiperCore.use([Pagination, EffectCoverflow, Autoplay]);
 
 import './gallery.css';
+import zero from "./Gallery/clinic.jpeg";
 import one from "./Gallery/1.jpeg";
 import Two from "./Gallery/2.jpeg";
 import Three from "./Gallery/3.jpeg";
@@ -20,6 +21,10 @@ import Five from "./Gallery/5.jpeg";
 // import Nine from "./Gallery/9.jpeg";
 
 const gallery = [
+    {
+        
+        url: zero
+    },
     {
         
         url: one

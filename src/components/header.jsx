@@ -18,7 +18,7 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p1 style={{color:"white",fontWeight:'2000', fontSize:'22px'}}>{props.data ? props.data.paragraph : "Loading"}</p1>
-                <p>{props.data ? props.data.para : "Loading"}</p>
+                
                 
               </div>
               {/* Right Section - Image */}
@@ -29,7 +29,7 @@ export const Header = (props) => {
                   className="img-fluid header-image" 
                 />
               </div>
-                <a href="#contact" className="btn btn-custom  page-scroll">
+                <a style={{fontWeight:'bold',fontSize:"20px"}} href="#contact" className="btn btn-custom  page-scroll">
                     Enquire Now
                 </a>
             </div>

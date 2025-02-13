@@ -50,6 +50,7 @@
   padding: 20px;
   height: 400px;
   width: 100%;
+
 }
 
 #services .swiper-pagination-bullet {
@@ -124,7 +125,11 @@
     width: 70px;
     height: 70px;
   }
-
+ 
+  .swiper{
+    width: 300px;
+    margin-left: -25;
+  }
   .service-card h3{
     margin-top: 10px;
   }

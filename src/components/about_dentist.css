@@ -37,7 +37,7 @@
 h2 {
   font-size: 28px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .highlight {
@@ -75,6 +75,7 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 20px 0;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .dentist-list li {
@@ -84,6 +85,7 @@ h2 {
   display: flex;
   align-items: center;
   font-weight: 500;
+  font-weight: bold;
   /* justify-content: center; */
 }
 
