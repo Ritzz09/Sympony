@@ -3,5 +3,9 @@
     "api/*.js": {
       "runtime": "nodejs18.x"
     }
+  },
+  "build": {
+    "src": "api/send-email.js",
+    "use": "@vercel/node"
   }
 }
